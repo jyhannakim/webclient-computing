@@ -1,0 +1,135 @@
+		#container { 
+			width:600px;
+			margin:0 auto;
+		}
+		#prod-pic, #desc { 
+			float:left;
+		}
+		#prod-pic { 			
+			margin:20px 20px auto 10px;
+			padding:0;
+		}
+		#cup { 			
+			box-shadow:1px 1px 2px #ffffff;
+			outline:1px dashed #ccc;			
+			outline-offset: -7px;
+		}
+		#small-pic {
+			margin-top:40px;
+			margin-right:20px;
+			list-style: none;
+			padding:0;
+		}
+		#small-pic > li {
+			float:left;
+			margin-right:10px;
+		}
+		.small {
+			width:60px;
+			height:60px;
+		}
+		#small-pic img:hover {
+			cursor:pointer;
+		}		
+		#desc {  
+			width:300px;
+			padding-top:20px;
+			margin-bottom:50px;
+		}
+		.bluetext {
+			color:#4343ff;
+			font-weight:bold;
+		}
+		
+	
+		#desc ul {
+			list-style:none;
+		}
+		#desc li{
+			font-size:0.9em;
+			line-height:1.8;
+		} 
+		#desc a {
+			text-decoration: none;
+			font-size:0.9em;
+			color:blue;
+			padding-left:40px;
+		}
+		
+		hr {
+			clear:both;
+			border:1px dashed #f5f5f5;
+		}
+		#detail {
+			padding-top:20px;
+			display:none;
+		}
+		#detail li {
+			font-size:0.9em;
+			line-height:1.4;
+		}
+		h1 { 
+			font-size:2em;
+		}
+		h2 {
+			font-size:1.5em;
+			color:#bebebe;
+			font-weight:normal;
+		}
+		h3 {  
+			font-size:1.1em;
+			color:#222;
+		}
+		p { 
+			font-size:0.9em;
+			line-height:1.4;
+			text-align: justify;
+		}
+		#item {
+			position:relative;
+			width:500px;
+			height:auto;
+			padding:15px 20px;
+			margin:auto;
+		}
+		button {
+			background-color:rgba(255,255,255,0.7);;
+			padding:5px;
+			border:1px solid #ccc;
+			font-size:0.8em;			
+		}
+		.over {
+			position:absolute;
+			left:30px;
+			bottom:30px;
+		}
+		.detail {
+			width:400px;
+			text-align:left;			
+			line-height:1.8;
+			display:none;
+		}
+
+		#rotatexyz:hover {
+			transform: rotate3d(2.5, 1.2, -1.5, 360deg) scale(1.6);
+			transition: all 3s;  /* x,y,z축으로 55도 회전 */
+			border: 5px solid red;
+    		box-sizing: border-box;
+		}
+		#rotatex:hover {
+			transform: rotateX(360deg) scale(1.6);  /* x축으로 55도 회전 */
+			transition: all 3s;
+			border: 5px solid red;
+    		box-sizing: border-box;
+		}
+		#rotatey:hover {
+			transform: rotateY(360deg) scale(1.6);  /* y축으로 55도 회전 */
+			transition: all 3s;
+			border: 5px solid red;
+    		box-sizing: border-box;
+		}
+		
+
+		
+		
+		
